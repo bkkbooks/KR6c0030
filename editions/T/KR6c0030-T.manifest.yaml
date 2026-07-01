@@ -1,0 +1,50 @@
+canonical_identifier: bkk:krp/KR6c0030/T/v1
+canonical_location: https://kanripo.org/bkk/KR6c0030/T/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 金剛般若論
+  identifiers:
+    krp: KR6c0030
+    cbeta: T25n1510a
+    cbeta_old_id: T25n1510a
+    authorityid: CA0001601a
+    json_key: T1510a
+  source:
+    repository: cbeta
+    path: /home/chris/src/xml-p5/T/T25/T25n1510a.xml
+    old_id: T25n1510a
+  edition:
+    short: T
+assets:
+  parts:
+  - {seq: 0, filename: KR6c0030_000-T.yaml, hash: 'sha256:b99eea3ba317282b79b74d8fa416d15f8a977fc5ff25d72c64869fa15dcd7a1d'}
+  - {seq: 1, filename: KR6c0030_001-T.yaml, hash: 'sha256:406bfbe1b295557ff7703decea0501a34397fd620faa6e8a6f29c2d5522a202e'}
+  - {seq: 2, filename: KR6c0030_002-T.yaml, hash: 'sha256:a4a37444590a07f8e2f592dfd57328b9744b4b202fd43f07596500b3997bdbe5'}
+  markers:
+  - {seq: 0, role: markers, filename: assets/KR6c0030_000-T.markers.yaml, hash: 'sha256:2a8fa8bdd78977d3f77d57a160081477315dd57080a49bd8241f15c8cd3e51bc'}
+  - {seq: 1, role: markers, filename: assets/KR6c0030_001-T.markers.yaml, hash: 'sha256:b9e05cc3b0fef794ed124166d2f0c7df03b1a0ce867ecc2d9155a83f541f1b7f'}
+  - {seq: 2, role: markers, filename: assets/KR6c0030_002-T.markers.yaml, hash: 'sha256:969d62ee2e9d2a41c8a5e64b5faea1b81c03fafcefee1c1b968e14b0f8a45a8e'}
+table_of_contents:
+- ref:
+    seq: 1
+    marker_id: KR6c0030_T_001-juan-start
+    span:
+    - body
+    - 0
+    - 6665
+  label: 金剛般若論卷上
+  type: juan
+  level: 1
+- ref:
+    seq: 2
+    marker_id: KR6c0030_T_002-juan-start
+    span:
+    - body
+    - 0
+    - 6768
+  label: 金剛般若論卷下
+  type: juan
+  level: 1
+hash: sha256:df62e1d68e579bcb01c3be1b5edf3af77f4f34ac2c91c5aedd9204814a1d865d
